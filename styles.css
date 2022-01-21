@@ -1,0 +1,36 @@
+.main{
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto' , sans-serif;
+    background-color: #1f2937;
+}
+.left-header,.right-header{
+    display:flex;
+    margin: 40px;
+    gap: 20px;
+}
+.left-header{
+    color: #F9FAF8;
+    font-size: 24px;
+
+}
+.right-header
+{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.header-content{
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding-bottom: 500px;
+    font-size: 48px;
+    font-style: bold;
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
