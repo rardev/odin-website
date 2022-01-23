@@ -1,21 +1,26 @@
+body{
+  
+    margin: 0;
+}
 .main{
     justify-content: center;
+    background-color: #1f2937;
 }
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Roboto' , sans-serif;
-    background-color: #1f2937;
+    margin-bottom: 100px;
 }
 .left-header,.right-header{
     display:flex;
-    margin: 40px;
     gap: 20px;
 }
 .left-header{
     color: #F9FAF8;
     font-size: 24px;
+    margin-left: 100px;
 
 }
 .right-header
@@ -23,14 +28,52 @@
     color: #E5E7EB;
     font-size: 18px;
 }
-.header-content{
-    background-color: #1f2937;
-    color: #F9FAF8;
-    padding-bottom: 500px;
-    font-size: 48px;
-    font-style: bold;
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+padding-bottom: 150px;
+
+}
+.header-content-r1{
+    display:flex;
     margin: 0;
+    flex-direction:column ;
+    max-width: 450px;
+}
+button.sign-up{
+    margin-top: 20px;
+    background:#3882F6;
+    border: 1px solid #3882F6;
+    font-size:18px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Roboto' , sans-serif;
+    max-width: 125px;
+    padding: 7px;
+    cursor:pointer;
+}
+.header-content-l1{
+    margin-left: 50px;
+    background-color: #626872;
+    padding-left:150px;
+    padding-right: 150px;  
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+
 }
 h1{
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+    font-size: 48px;
     margin: 0;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0;
+
 }
