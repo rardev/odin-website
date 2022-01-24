@@ -2,8 +2,7 @@ body{
   
     margin: 0;
 }
-.main{
-    justify-content: center;
+.section-wrapper{
     background-color: #1f2937;
 }
 .header{
@@ -13,6 +12,7 @@ body{
     font-family: 'Roboto' , sans-serif;
     margin-bottom: 100px;
 }
+
 .left-header,.right-header{
     display:flex;
     gap: 20px;
@@ -27,20 +27,22 @@ body{
 {
     color: #E5E7EB;
     font-size: 18px;
+    margin-right:100px;
 }
 .content-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center; 
 
 padding-bottom: 150px;
 
 }
-.header-content-r1{
+.header-content-l1{
     display:flex;
     margin: 0;
     flex-direction:column ;
     max-width: 450px;
+    margin-left: 100px;
 }
 button.sign-up{
     margin-top: 20px;
@@ -54,13 +56,13 @@ button.sign-up{
     padding: 7px;
     cursor:pointer;
 }
-.header-content-l1{
-    margin-left: 50px;
+.header-content-r1{
     background-color: #626872;
-    padding-left:150px;
-    padding-right: 150px;  
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-left:125px;
+    padding-right: 125px;  
+    padding-top: 92px;
+    padding-bottom: 92px;
+    margin-right: 100px;
 
 
 }
@@ -76,4 +78,9 @@ p{
     font-size: 18px;
     margin: 0;
 
+}
+.text-wrapper{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 36px;
+    
 }
